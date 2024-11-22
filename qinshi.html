@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寝室主页</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+           background-color:#90CAC3;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: url('2.jpg') no-repeat center center fixed; /* 设置背景图片 */
+            background-size: cover; /* 背景图片自适应容器大小 */
+            color: white;
+            padding: 50px 20px; /* 给header添加内边距，确保文字不贴边 */
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+			color: #88E1A6;
+			text-align: center;
+			background-color:#444040;
+			
+		}
+
+		
+
+        section.main {
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1; 
+        }
+
+        
+        .roommate {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.7);  
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+            border-radius: 15px; 
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .roommate img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我们的主页</h1>
+    </header>
+
+   	<h2><bottom><a href="https://passing666.github.io/CS2405/">返回班级主页</a></bottom></h2>
+
+	
+	  <img src="./img/All.jpg" class="left"/>
+
+<div class="right">
+    <section class="main">
+        <p style="font-size: 35px; color:#; background-color:#7DD8A6">我们的成员</p>
+        <div class="roommate">
+            <img src="img/lyb.jpg" alt=lyb>
+            <h3>林越彬&nbsp;</h3>
+            <p><a href="https://cherrywin-5503.github.io/linyuebin1/" style="color:#344968">点击查看个人页面</a></p>
+        </div>
+        <div class="roommate">
+            <img src="img/xs.jpg" alt="xs">
+            <h3>小山</h3>
+            <p><a href="">点击查看个人页面</a></p>
+        </div>
+        <div class="roommate">
+            <img src="img/ozq.jpg" alt="ozq">
+            <h3>欧子谦</h3>
+            <p><a href="https://yuguchenyu.github.io/ozqweb/" style="color:#344968">点击查看个人页面</a></p>
+        </div>
+		 <div class="roommate">
+            <img src="img/hw.jpg" alt="hw">
+            <h3>弘文</h3>
+            <p><a href="https://xingkaidadianqin.github.io/%E5%BC%98%E6%96%87%EF%BC%9AI202420305/" style="color:#344968">点击查看个人页面</a></p>
+        </div>
+        <div class="roommate">
+            <img src="img/hjw.jpg" alt="hjw">
+            <h3>洪建文</h3>
+            <p><a href="" style="color:#344968">点击查看个人页面</a></p>
+        </div>
+    </section>
+	
+	</div>
+
+    <footer>
+        <p>寝室主页 &copy; 2024</p>
+    </footer>
+</body>
+</html>
